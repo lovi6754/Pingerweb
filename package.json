@@ -1,0 +1,14 @@
+{
+  "name": "my-pinger-mongodb",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Personal uptime monitor with MongoDB and server-side scheduler.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.18.0",
+    "node-cron": "^3.0.3"
+  }
+}
